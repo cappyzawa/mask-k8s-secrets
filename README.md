@@ -1,1 +1,1 @@
-# mask-secrets
+# mask-k8s-secrets
