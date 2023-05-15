@@ -29,7 +29,7 @@ func (c *cli) run(args []string) int {
 	yamls := bytes.Split(input, []byte("\n---\n"))
 	for i, y := range yamls {
 		if i > 0 {
-			fmt.Println("---")
+			fmt.Fprintf(c.outStream, "---\n")
 		}
 		var obj unstructured.Unstructured
 		if err := yaml.Unmarshal(y, &obj.Object); err != nil {
