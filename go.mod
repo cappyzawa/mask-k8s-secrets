@@ -3,14 +3,14 @@ module github.com/cappyzawa/mask-k8s-secrets
 go 1.20
 
 require (
+	github.com/google/go-cmp v0.5.9
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/apimachinery v0.27.1
+	k8s.io/apimachinery v0.27.2
 )
 
 require (
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kr/text v0.2.0 // indirect
