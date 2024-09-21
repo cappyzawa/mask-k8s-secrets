@@ -1,6 +1,6 @@
 module github.com/cappyzawa/mask-k8s-secrets
 
-go 1.21
+go 1.23
 
 require (
 	github.com/google/go-cmp v0.6.0
